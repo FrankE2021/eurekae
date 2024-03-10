@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+body, button {
+    font-family: "Anta", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #4c4c4c, #2a2a2a); /* Fondo en degradado */
+    color: #fff;
+}
+
+.rey {
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    width: 33%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: #333; /* Fondo de los elementos .rey */
+}
+
+.img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.cajaCentral {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.name {
+    color: darkorange;
+}
+
+.precio {
+    margin-top: 10%;
+}
+
+
